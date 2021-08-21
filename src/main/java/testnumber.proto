@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message TestNumber {
+    fixed64 f64 = 1;
+    sfixed64 sf64 = 2;
+    int32 i32 = 3;
+    int64 i64 = 4;
+    uint32 u32 = 5;
+    uint64 u64 = 6;
+    sint32 s32 = 7;
+    sint64 s64 = 8;
+    fixed32 f32 = 9;
+    sfixed32 sf32 = 10;
+    float f = 11;
+    double d = 12;
+}
